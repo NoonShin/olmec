@@ -989,6 +989,20 @@ hr {
 section.special, article.special {
   text-align: center; }
 
+/* article.article-center {
+  justify-content: center;
+  padding-left: 25%;
+  margin-right: 0;
+  padding-right: 0;
+  width: 100%;
+} */
+
+a.link-dec:hover, a.link-dec:active, a.link-dec:link, a.link-dec:visited {
+  text-decoration: none;
+  border-bottom-style: none;
+  color: inherit;
+}
+
 header p {
   font-family: "Roboto Slab", serif;
   font-size: 1em;
